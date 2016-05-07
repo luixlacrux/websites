@@ -1,0 +1,22 @@
+{
+  "name": "websites",
+  "version": "0.0.0",
+  "description": "180 websites en 180 dias",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages-deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/luixlacrux/websites.git"
+  },
+  "author": "@luixlacrux",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/luixlacrux/websites/issues"
+  },
+  "devDependencies": {
+    "gh-pages-deploy": "~0.4.2"
+  }
+}
