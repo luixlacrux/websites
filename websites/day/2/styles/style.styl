@@ -1,0 +1,45 @@
+@import './styles/fonts/style.css'
+
+gris = #5F5F5F
+
+a
+  text-decoration none
+
+body
+  color gris
+  font-family sans-serif
+  letter-spacing 2px
+
+.Header
+  &-menu
+    width 100%
+    height 30px
+    display flex
+    justify-content flex-end
+    align-items center
+    border-bottom 1px solid #cc
+
+    a
+      margin-left 10px
+      font-weight bold
+      color gris
+      &:hover
+        color orange
+.Text
+  text-align center
+
+.Doors
+  margin 3em 0
+  width 100%
+  display flex
+  justify-content space-around
+  .icon-door
+    font-size 10em
+    cursor pointer
+  .door
+    &-green
+      color lighten(green, 10%)
+    &-blue
+      color steelblue
+    &-gray
+      color rebeccapurple
