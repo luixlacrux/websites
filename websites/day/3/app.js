@@ -7,9 +7,8 @@ function genRandomColor () {
   return color
 }
 
-const colorInit = '#ffa500'
 const buttonChange = document.getElementById('button')
-buttonChange.style.background = colorInit
+buttonChange.style.background = genRandomColor()
 
 buttonChange.addEventListener('click', function () {
   document.body.style.background = this.style.background
