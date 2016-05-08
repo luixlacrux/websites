@@ -24,21 +24,22 @@ body
       color gris
       &:hover
         color orange
-.Text
-  text-align center
-
-.Doors
-  margin 3em 0
+.Main
   width 100%
+  height 90vh
   display flex
-  justify-content space-around
-  .icon-door
-    font-size 10em
+  justify-content center
+  align-items center
+
+  &-button
+    border none
+    outline none
+    border-radius .3em
+    box-shadow .2em .2em .5em rgba(0, 0, 0, 0.1);
     cursor pointer
-  .door
-    &-green
-      color lighten(green, 10%)
-    &-blue
-      color steelblue
-    &-gray
-      color rebeccapurple
+    color white
+    font-weight bold
+    font-size 1.2em
+    padding 1em
+  .icon-change-color:before
+    margin-right: .3em
