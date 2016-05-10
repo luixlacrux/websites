@@ -1,0 +1,56 @@
+gris = #5F5F5F
+rojo = #EA3556
+
+body
+  color gris
+  font-family sans-serif
+  letter-spacing 2px
+
+a
+  text-decoration none
+
+h1
+  text-align center
+
+.Header
+  &-menu
+    width 100%
+    height 30px
+    display flex
+    justify-content flex-end
+    align-items center
+    border-bottom 1px solid #ccc
+    a
+      margin-left 10px
+      font-weight bold
+      color gris
+      &:hover
+        color orange
+.Main
+  height 300vh
+  font-size 1.5em
+  letter-spacing 3px
+  margin 1em 0
+  display flex
+  flex-direction column
+  justify-content space-between
+  &-title
+    font-size .8em
+    color #aaa
+  pre
+    margin 0
+    padding 0
+    display flex
+  &-fixed
+    position fixed
+    top 83%
+  &-bottom
+    margin 0
+    padding 0
+    
+.author
+  font-size 1.2em
+  color green
+  position absolute
+  top 305vh
+  right 20%
