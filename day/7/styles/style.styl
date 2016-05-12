@@ -1,0 +1,50 @@
+ris = #5F5F5F
+rojo = #db5656
+
+body
+  color gris
+  font-family sans-serif
+  letter-spacing 2px
+
+a
+  text-decoration none
+
+h1
+  text-align center
+
+.Header
+  &-menu
+    width 100%
+    height 30px
+    display flex
+    justify-content flex-end
+    align-items center
+    border-bottom 1px solid #ccc
+    a
+      margin-left 10px
+      font-weight bold
+      color gris
+      &:hover
+        color orange
+.Main
+  min-height 50vh
+  height 18em
+  padding 1em
+  display flex
+  flex-direction column
+  justify-content space-around
+  align-items center
+
+  &-container
+    display flex
+    flex-wrap wrap
+    justify-content center
+
+    .item
+      width 90px
+      height 90px
+      background #aaa
+      &:hover
+        box-shadow 0px 0px 2em rgba(255, 255, 255, 1)
+        z-index 3
+        filter: brightness(0.9)
